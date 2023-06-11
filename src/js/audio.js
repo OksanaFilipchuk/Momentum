@@ -1,5 +1,6 @@
 import playlist from './playlist.js';
 const audio = new Audio();
+audio.crossOrigin = 'anonymous';
 let isPlay = false;
 const play = document.querySelector('.play')
 const prev = document.querySelector('.play-prev');
